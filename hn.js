@@ -26,7 +26,9 @@ fetch(url + 'topstories.json').then(function (response) {
             link.href = item.url;
             link.title = item.title;
             link.innerHTML = item.title;
-            sec.appendChild(link);
+            var p = document.createElement('p');
+            p.appendChild(link);
+            sec.appendChild(p);
             return item;
         });
         localStorage.setItem('hn', JSON.stringify(objects));
