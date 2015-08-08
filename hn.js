@@ -1,5 +1,5 @@
 var url = 'https://hacker-news.firebaseio.com/v0/',
-    max = 10;
+    max = 30;
 fetch(url + 'topstories.json').then(function (response) {
     if (response.ok) {
         return response.json();
