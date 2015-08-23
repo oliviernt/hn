@@ -92,11 +92,8 @@ main {
 	margin: 0 auto;
 }
 
-section {
+section, aside {
 	float: left;
-}
-aside {
-	float: right;
 }
 
 @media only screen and (min-width: 35em) {
