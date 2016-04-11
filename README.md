@@ -1,2 +1,4 @@
 # hn
-Just a little HackNews client
+Just another HackNews client
+
+Playground for ES6 and other "new" JS tech.
